@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-canvas: #ffffff;
+  --color-mist: #f6f9fb;
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-subtle: #64748b;
+  --color-line: #e2e8f0;
+  --color-brand: #10b981;
+  --color-brand-dark: #059669;
+  --color-brand-deep: #047857;
+  --color-accent: #2563eb;
+  --color-accent-soft: #dbeafe;
+  --color-soft: #ecfdf5;
+}
+
+@theme inline {
+  --color-canvas: var(--color-canvas);
+  --color-mist: var(--color-mist);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --color-subtle: var(--color-subtle);
+  --color-line: var(--color-line);
+  --color-brand: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
+  --color-brand-deep: var(--color-brand-deep);
+  --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-soft: var(--color-soft);
+  --font-sans: var(--font-noto-sans-kr);
+  --font-display: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-noto-sans-kr), system-ui, -apple-system, "Segoe UI",
+    "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
