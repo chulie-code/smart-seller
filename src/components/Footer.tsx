@@ -23,7 +23,7 @@ export default function Footer() {
           {site.nav.map((item) => (
             <p key={item.href}>
               <a
-                href={item.href}
+                href={`/${item.href}`}
                 className="underline-offset-4 hover:underline"
               >
                 {item.label}
