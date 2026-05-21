@@ -34,13 +34,13 @@ export default function Hero() {
           </div>
           <ul className="mt-2 flex flex-wrap gap-x-5 gap-y-2 text-sm text-subtle">
             <li className="flex items-center gap-1.5">
-              <span className="text-brand">✓</span> 첫 상품 무료 샘플
+              <span className="text-brand">✓</span> 회원 가입 시 전부 무료
             </li>
             <li className="flex items-center gap-1.5">
-              <span className="text-brand">✓</span> 24시간 이내 납품
+              <span className="text-brand">✓</span> AI가 즉시 생성
             </li>
             <li className="flex items-center gap-1.5">
-              <span className="text-brand">✓</span> 일괄등록 엑셀 제공
+              <span className="text-brand">✓</span> 일괄등록 엑셀(CSV) 제공
             </li>
           </ul>
         </div>
@@ -77,7 +77,7 @@ function HeroPreview() {
         </div>
         <div className="mt-5 flex items-center justify-between rounded-lg bg-soft px-3 py-2 text-xs font-medium text-brand-deep">
           <span>AI 채움 완료 · 4/4 필드</span>
-          <span>24h 안에 납품</span>
+          <span>회원 무료 · 즉시 생성</span>
         </div>
       </div>
     </div>
